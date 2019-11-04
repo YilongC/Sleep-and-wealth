@@ -1,45 +1,65 @@
-Team work commitment
 ## 1.0 Introduction
-  + #### 1.1 _**Problem situation.**_
-> ing to work together at least 3 hours per week on the project.
- Face to face communication and texting through group chat may be required.
- We will schedule a time slot every week that all members in the group need to come together to report their progress. Further direction may be d
+  * #### 1.1 **Problem situation.**
+    * The majority of the professionals working in the United States is deprived of sleep and many  companies have working policy such as the maximum working hours for a day each persons.  And ethically saying, a human certainly has a minimum hour of sleeping to perform well during a day.
 
-  + #### 1.2 _**What is the problem?**_
-> ing to work together at least 3 hours per week on the project.
- Face to face communication and texting through group chat may be required.
- We will schedule a time slot every week that all members in the group need to come together to report their progress. Further direction may be d
+    * Insufficient sleep among students would result in a variety of health-risk behaviors and also poor academic performance. Therefore, we assume that insufficient sleep among workers would influence working efficiency. The Fair Labor Standards Act protects workers to have the enough time to relax and get enough sleep. Workers who suffer from overtime work protest for their right. Some workers also work over day and night to finish their work and get extra revenues. Therefore, we want to find out the most suitable time for workers to maximize their working efficiency. 
 
-  + #### 1.3 _**What does it matter?**_
-> ing to work together at least 3 hours per week on the project.
- Face to face communication and texting through group chat may be required.
- We will schedule a time slot every week that all members in the group need to come together to report their progress. Further direction may be d
 
-  + #### 1.4 _**How it will be addressed?**_
-> ing to work together at least 3 hours per week on the project.
- Face to face communication and texting through group chat may be required.
- We will schedule a time slot every week that all members in the group need to come together to report their progress. Further direction may be d
+
+  * #### 1.2 **What is the problem?**
+    * Whether the amount of time for people to sleep would influence the working efficiency? If so, what is the most “profitable” time for people to sleep.
+
+    * The problem is  in the United States, the majority of the workers with high salaries tend to sleep for a shorter time (on average)than those with median or low salaries.
+
+
+
+  + #### 1.3 **What does it matter?**
+    * Workers’ working efficiency is strongly related with economic growth. Therefore, the most “profitable” sleeping time would help workers’ health and the increase in economic growth.
+
+    * With deprived of sleepiness, the workers may not perform normally, leading to low working efficiency and thus deficit the company.
+
+
+
+  + #### 1.4 **How it will be addressed?**
+    * Provide the insights and recommendation after finishing this project and hope some company will address their policy based on this project. With more sleep, I assumed the workers could perform better , thus resulting in substantially enhancing the working efficiency and generate more profit.
+
+
 
 ## 2.0 Research Questions
 
 * #### 2.1 Question #1
-ing to work together at least 3 hours per week on the project.
-Face to face communication and texting through group chat may be required.
-We will schedule a time slot every week that all members in the group need to come together to report their progress. Further direction may be d
+With more  average sleeping time , the GDP of a certain region will increase?
 
 * #### 2.2 Question #2
-ing to work together at least 3 hours per week on the project.
-Face to face communication and texting through group chat may be required.
-We will schedule a time slot every week that all members in the group need to come together to report their progress. Further direction may be d
+If there is a relation between the amount of time for people to sleep and working efficiency?
 
 ## 3.0 Possible Data Sets
-*
-*
+* #### 3.1 America's most sleep-deprived cities
+  * The dataset shows the rank of sleep time by cities of United States, including the conditions of physical health, mental health, physical activities, obesity, and median household income of each city. It shows the sleep duration of each city.
+  * https://havenlife.com/blog/most-sleep-deprived-cities/
+  * Number of observations: 302
+  * Number of attributes: 7
+  * (Source: Haven Life)[1]
+* #### 3.2 SAGDP2N__ALL_AREAS_1997_2018
+  * The dataset based on SAGDP2N Table shows the collection of United States GDP from 1997 to 2018 sort by states and industrial areas. This dataset will help access a basic knowing of GDP in United States.
+  * https://apps.bea.gov/regional/downloadzip.cfm
+  * Number of observations: 5464
+  * Number of attributes: 31
+  * (Source: BEA) [2]
+
 
 
 ## 4.0 Information Visualizations
 
-![Age-adjusted percentage of adults who reported >=7 hours of sleep per 24-hour period, by state](/Graph/111572822943_.pic_hd.jpg)
+![Age-adjusted percentage of adults who reported >=7 hours of sleep per 24-hour period, by state](>=7_hours_states.jpg)
+
+_Figure 1._ This graphics shows the percentage of adults that report sleep at least 7 hours in a 24 hours period. We plan to create a information visualization that shows the sleep time summary of each county. (Source: STAT) [3]
+
+
+
+![Percent Change in Real GDP by Metropolintan Area,2017](111572822943_.pic_hd.jpg)
+
+_Figure 2._ This graphics shows the percentage change of GDP of some cities in United States 2017. We are aiming to make a similar information visualizations that would show the GDP summary by counties in order to explore the relationship between the sleep time and the local GDP. (Source: BEA) [4]
 
 
 ## 5.0 Team Coordination
@@ -52,19 +72,21 @@ If group members experience any problem while working on individual tasks, they 
 #### Individual Goals
 > Byron Chen: Get to know how to use the RStudio better. Gain experience on team work and team coordination.
 
-> Fusheng Wang:
+> Fusheng Wang: I want to improve my coding skill and also the teamwork skill and I want to get a great GPA on Info201.
 
-> Chunye Sun:
+> Chunye Sun: By doing the such topic, I will have a basic knowing about US GDP and also the condition of sleep quality in US. If there is actually relationship existing between two, I could adjust my time schedule by our research result.
 
-> Hao Luo:
+> Hao Luo: To increase my coding skills for R, communication skills and teamwork, and leaderships. I hope our project will have some impact to some company in the United States.
 
 ## 6.0 Questions for Teaching Team
 
+No question so far.
+
 ## 7.0 References
-[1]
+[1]Anderson, T. (2019, April 10). The most sleep-deprived cities in America: Haven Life. Retrieved from https://havenlife.com/blog/most-sleep-deprived-cities/.
 
-[2]
+[2]Regional Economic Accounts: Download. (n.d.). Retrieved from https://apps.bea.gov/regional/downloadzip.cfm.
 
-[3]
+[3]@meggophone, M. T., Thielking, M., Thielking, M., & Megan. (2018, April 19). Map: Where in the US people get best - and worst - sleep . Retrieved from https://www.statnews.com/2016/02/18/state-people-sleep-worst/.
 
-[4]
+[4]Gross Domestic Product by Metropolitan Area, 2017: U.S. Bureau of Economic Analysis (BEA). (n.d.). Retrieved from https://www.bea.gov/news/2018/gross-dom
