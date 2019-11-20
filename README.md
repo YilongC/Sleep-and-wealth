@@ -9,3 +9,5 @@ Our work may provide help to employees, as well as employers.
 Link to the repository: https://github.com/YilongC/Sleep-and-worth.git
 
 Link to wiki: https://github.com/YilongC/Sleep-and-worth/wiki/Project-proposal
+
+Link to shiny app: https://sleepandwealth.shinyapps.io/sleep-gdp/
