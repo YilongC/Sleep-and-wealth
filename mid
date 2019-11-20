@@ -1,0 +1,84 @@
+UW Daniel 罗灏:
+1.0 Introduction
+*
+* #### 1.1 **Problem situation.**
+    * The majority of the professionals working in the United States is deprived of sleep and many  companies have working policy such as the maximum working hours for a day each persons.  And ethically saying, a human certainly has a minimum hour of sleeping to perform well during a day.*
+    * Insufficient sleep among students would result in a variety of health-risk behaviors and also poor academic performance. Therefore, we assume that insufficient sleep among workers would influence working efficiency. The Fair Labor Standards Act protects workers to have the enough time to relax and get enough sleep. Workers who suffer from overtime work protest for their right. Some workers also work over day and night to finish their work and get extra revenues. Therefore, we want to find out the most suitable time for workers to maximize their working efficiency. Moreover, we want to help industries to establish some sorts of working-relaxing rules based on our project to further improve overall quality of industries and generate more profits.
+
+* #### 1.2 **What is the problem?**
+
+    * Whether the amount of time for people to sleep would influence the working efficiency? If so, what is the most “profitable” time for people to sleep.
+
+    * The problem is  in the United States, the majority of the workers with high salaries tend to sleep for a shorter time (on average)than those with median or low salaries.
+
+
++ #### 1.3 **What does it matter?**
+    * Workers’ working efficiency is strongly related with economic growth. Therefore, the most “profitable” sleeping time would help workers’ health and the increase in economic growth.
+
+    * With deprived of sleepiness, the workers may not perform normally, leading to low working efficiency and thus deficit the company.
+
++ #### 1.4 **How it will be addressed?**
+    * Provide the insights and recommendation after finishing this project and hope some company will address their policy based on this project. With more sleep, I assumed the workers could perform better , thus resulting in substantially enhancing the working efficiency and generate more profit.
+
+## 2.0 Research Question
+* 2.1 Question #1
+    With more  average sleeping time , the GDP of a certain region will increase?
+
+* 2.2 Question #2
+    If there is a relation between the amount of time for people to sleep and working efficiency?
+
+* 2.3 Question #3
+    What is the most profitable time for employees to work.
+
+## 3.0 The data set(s)
+* The GCP_Release_1 dataset which includes the overall data of GDP in US by states was created by Bureau of Economic Analysis under U.S. Department of Commerce. It is a overall dataset that provides specific information of each county's GDP condition. It has been release on Bureau of Economic [https://www.bea.gov/data/gdp/gdp-county] since Dec. 12, 2018. The observation of this dataset is each specific static number of GDP information. It takes variables - Countyname. It is a data with 12452 observations about GDP. The weakness of the dataset is the whole dataset is not gonna work for the future, and the strength of the dataset is its diverse geographies that contains overall regions of the whole country. For this data, we only took several variables that we need to compare, which are Countyname, year(2015), and all industries GDP.
+* The Insufficient sleepPercentage of adults who report fewer than 7 hours of sleep on average dataset is the information that has been posted on County Health Rankings & Roadmaps about the insufficient sleep condition that has been collected by County. It could be found in County Health Rankings & Roadmaps [https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/health-behaviors/insufficient-sleep]. observation of this dataset is the percentage of insufficient sleep in each county. Variables are county and percentage of insufficient sleep. is contains 3057 observations. The weakness of the dataset is the data only presented in percent with out  specific numbers to show a more convincing result, and the strength is the data contains all of the counties. We choose the county and insufficient sleep of the dataset and add on a column of state.
+
+## 4.0 Information Visualization
+We tried to let the user recognize the correlation between sleep time ( insufficient sleep) and GDP of this area. We built an interactive histogram and an interactive dot plot to illustrate the user the relationship between the two dimension. We are working on building a map with GDP and sleep time on it, so that we can show the user geometrically all our data.
+
+## 5.0 Technical description of Shiny application
+We built our app using Rstudio. We get two separate file, one called ui.R and server.R. We source the ui file in server file, and built a both of our plots in server file. Then we use render to make it visualized to user to look at. We loaded two csv files and use dplyr, shiny and maps libraries. We organize our code by according to the shiny building conventions.
+
+## 6.0 Conclusion
+Our project covers a lot of areas in America. As a result, our result is not general. Our result is clearly shown to the audience. They can easily understand our finding. Although our project has the great variety in geology, it has little variety in time. If the relation varies through time, our result might be inaccurate. There may be some noise in the data we collect and we are unable to identify and remove those noises. This factor can be the cause for the inaccuracy of our finding. We learn that most of the findings that is based on the data collecting is very difficult to achieve and there might be lots of reasons that may cause inaccuracy. The process of data analyzing is also challenging for researchers.  They may not find the useful information with their data and it could be difficult to cover every aspect of the analyz. If other research team want to contribute our work in finding relation between sleep hours and GDP, they may encounter some difficulties. They can perfect our work by enlarging the time span and identifying the noise in the data.
+
+## References
+“Insufficient Sleep*.” County Health Rankings & Roadmaps, https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/health-behaviors/insufficient-sleep.
+
+“Prototype Gross Domestic Product by County, 2012-2015: U.S. Bureau of Economic Analysis (BEA).” Prototype Gross Domestic Product by County, 2012-2015 | U.S. Bureau of Economic Analysis (BEA), https://www.bea.gov/news/2018/prototype-gross-domestic-product-county-2012-2015.
+
+Appendix 1: Data Dictionary
+* Countyname:
+  * the name of each county that exists in United States.
+  * .cvs
+  * name
+* Insufficient sleep percent
+  * the percent of people who reported with less than 7 hours sleep everyday
+  * .cvs
+  * numbers
+* total GDP
+  * the amount of GDP of each county in all industries
+  * .cvs
+  * numbers
+
+Appendix 2: Reflections
+* Fusheng Wang :
+
+ I finished the conclution parts and also a lot of summary information. To find the result based on the large data set is easy and challenging at the same time. The set of the data can make the result totoally different. Collabaration between the team member is the most important to achive this goal. The communication and also the individual work really helped us to finish this project.
+
+* Yilong Chen:
+
+  I am in charge of building the shiny app. Together with my team members, we came up with the idea of the this project, we brainstormed what question can be asked, and how it can be addressed. During building process of the shiny app, I viewed a lot of resources on online: Stack overflow, Rstudio websites and so on... I learned some syntax of how a shiny app is built, though there are still a lot to learn.
+
+* Chunye Sun:
+
+  My job mainly is focusing on dataset. In the process when I was trying to find good data that would satisfy our original goal of the project, I start to know a part of the Internet that I had never get into before. There are a lot of data from our life worldwide that had been collected and transfer into a well sorted information for us to find. This would be really helpful for my study as I get deeper in to some specific area of study.
+
+* Hao Luo:
+
+  To this midpoint stage , my main mission is to write parts of the proposal both the project proposal for part 1 and draft of technical report in part2 . I also collaborate with other teammates in dealing with the mini-shiny app. It is kind of tough at first, but as we gradually made through each obstacle, we learnt something from it by looking up on the stackoverflow, the R studio home page, and other relevant resources. I learn basic shiny app stuff like how to create naviTab, graphs, user interaction , and so on, and so forth. In the future, I will do more practice in shiny this such great tools to set up UI, and probably, make my own shiny app.
+
+
+## Appendix 3: Use of Envisioning Cards
+* Each of us would pick the cards of stakeholders by ourselves both direct and indirect, then we will sit down and tell each other the reason why we pick the card. After talking with each other we will choose our stakeholders and also the strength and weakness of our data.
