@@ -11,3 +11,5 @@ Link to the repository: https://github.com/YilongC/Sleep-and-worth.git
 Link to wiki: https://github.com/YilongC/Sleep-and-worth/wiki/Project-proposal
 
 Link to shiny app: https://sleepandwealth.shinyapps.io/sleep-gdp/
+
+Link to shiny app final version: https://sleepandwealth.shinyapps.io/Sleep_and_wealth_FInal2/ 
